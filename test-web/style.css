@@ -1,0 +1,33 @@
+
+button {color: cornsilk; background-color: red;border-radius: 3em;
+    
+    padding: 1em; margin: 0.6em;}
+    e {color: deepskyblue;font-style: italic;font-display: ;}
+    body { flex: content; background-color: black;color: chartreuse;margin: -2;}
+    N {color: gold;}
+
+   >body   {margin: 2%; padding: 0%; background-color:black;}
+    .flex-container {  background: black; padding: 2px;  
+         margin: 2px; gap: 0px; border: 0% black;
+    display: flex; }
+    .one {border: solid black;margin: 2px; padding: 2px;margin-left: 0px;rad}
+    .two {border: solid black ;margin:  2px; padding: 2px;margin-left: 0px; }
+    .three { border:solid black ;margin: 2px; padding: 1px;  margin-left: 0px; 
+     }
+    .four {border:solid black;margin: 2px; padding: 1px;margin-right: 10%;
+           border-radius: 1rem; }
+           .pic {  background: black; padding: 2px;  
+         margin: 3px; gap: 2px; border: 2px solid rgb(60, 255, 0);
+    display: flex; border-radius: 8px;   }
+    img {width: 100%; width: 100%; object-fit: cover;}
+
+    .container { display: grid; 
+               grid-template-columns: repeat( 3, 2fr);
+               grid-auto-rows: minmax(25vw, 170px);
+               grid-gap: 2.5em;
+
+              }
+     .video {width: 100%; height: 100%; border: solid rgb(81, 255, 0);
+           border-radius: 8px; display: flex; margin: 0px; padding: 0px; }
+      video {width: 98%; height: 96%; }
+
