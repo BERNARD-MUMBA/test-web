@@ -21,7 +21,16 @@
         <div class="two">  <a href="pages/PRODUCTS.html"><button> PRODUCTS </button></a>   </div>
         <div class="three">  <a href="pages/images/doc.pdf"><button> BOOKS <button></button></a> </div>
         <div class="four">  <a href="pages/circuits-and-datasheets.html"><button>CIRCUITS AND SERVICING MANUALS</button></a> </div>
+        
    
+    </div>
+
+    <div class="video"> 
+
+        <video autoplay="true" id="videoElement" controls>
+        Video chart platform
+        </video>
+
     </div>
 
      <div class="video" >
@@ -31,7 +40,7 @@
       
      </div>   
    
-    <div class="pic"><img width="fit-content" src="images/pic.webp" alt="BERNARD MUMBA">  </div>
+    <div class="pic"> <a href="chart.html"> <img width="fit-content" src="images/pic.webp" alt="BERNARD MUMBA"></a> </div>
     <div class="flex-container">
         <div class="video">
 
@@ -39,7 +48,7 @@
 
 <div class="container">
 
-     <div class="item photo"> <img src="images/1.jpg" alt="MONO 250W PCB"> </div>
+     <div class="item photo"> <img src="images/1.png" alt="MONO 250W PCB"> </div>
      <div class="item photo"> <img src="images/2.jpg" alt="200W-AMP PCB"></div>
      <div class="item photo"> <img src="images/3.png" alt="500W AMPLIFIER PCB"> </div>
      <div class="item photo"> <img src="images/4.png" alt="stereo 500W amplier PCB"> </div>
@@ -55,7 +64,26 @@
 <a href="mailto:maximbernardmumba@gmail.com"><strong><em><button> email </button></em></strong></a>
 </p>
 
+<script>
 
+let viodeo=document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia)
+
+{navigator.mediaDevices.getUserMedia ({video:true})
+ .then (function(stream) {viodeo.srcObject=stream})
+}
+
+
+ else{console.log ("getUserMedia not supported!");}
+
+
+
+
+
+
+    
+</script>
     
 </body>
  
